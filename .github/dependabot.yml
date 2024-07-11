@@ -7,6 +7,6 @@ updates:
   open-pull-requests-limit: 10
   target-branch: develop
   ignore:
-    - dependency-name: io.github.wulkanowy:sdk
+    - dependency-name: io.github.freewulkanowy:sdk
   reviewers:
   - Faierbel

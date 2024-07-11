@@ -21,7 +21,7 @@
             app:title="@string/pref_view_app_theme"
             app:useSimpleSummaryProvider="true" />
         <Preference
-            app:fragment="io.github.wulkanowy.ui.modules.settings.appearance.menuorder.MenuOrderFragment"
+            app:fragment="io.github.freewulkanowy.ui.modules.settings.appearance.menuorder.MenuOrderFragment"
             app:iconSpaceReserved="false"
             app:key="@string/pref_key_menu_order"
             app:summary="@string/pref_view_menu_order_summary"

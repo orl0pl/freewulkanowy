@@ -121,7 +121,7 @@
             app:icon="@drawable/ic_all_add" />
     </androidx.coordinatorlayout.widget.CoordinatorLayout>
 
-    <io.github.wulkanowy.ui.widgets.MaterialLinearLayout
+    <io.github.freewulkanowy.ui.widgets.MaterialLinearLayout
         android:id="@+id/homeworkNavContainer"
         android:layout_width="match_parent"
         android:layout_height="48dp"
@@ -168,5 +168,5 @@
             android:scaleType="fitEnd"
             app:srcCompat="@drawable/ic_chevron_right"
             app:tint="?colorPrimary" />
-    </io.github.wulkanowy.ui.widgets.MaterialLinearLayout>
+    </io.github.freewulkanowy.ui.widgets.MaterialLinearLayout>
 </FrameLayout>

@@ -1,0 +1,49 @@
+package io.github.freewulkanowy.ui.modules.grade.details
+
+import io.github.freewulkanowy.data.db.entities.Grade
+import io.github.freewulkanowy.data.enums.GradeColorTheme
+import io.github.freewulkanowy.data.enums.GradeExpandMode
+import io.github.freewulkanowy.ui.base.BaseView
+
+interface GradeDetailsView : BaseView {
+
+    val isViewEmpty: Boolean
+
+    fun initView()
+
+    fun updateData(data: List<GradeDetailsItem>, expandMode: GradeExpandMode, gradeColorTheme: GradeColorTheme)
+
+    fun updateItem(item: Grade, position: Int)
+
+    fun updateHeaderItem(item: GradeDetailsItem)
+
+    fun clearView()
+
+    fun scrollToStart()
+
+    fun collapseAllItems()
+
+    fun showGradeDialog(grade: Grade, colorTheme: GradeColorTheme)
+
+    fun showContent(show: Boolean)
+
+    fun showEmpty(show: Boolean)
+
+    fun showProgress(show: Boolean)
+
+    fun showErrorView(show: Boolean)
+
+    fun setErrorDetails(message: String)
+
+    fun enableSwipe(enable: Boolean)
+
+    fun showRefresh(show: Boolean)
+
+    fun notifyParentDataLoaded(semesterId: Int)
+
+    fun notifyParentRefresh()
+
+    fun enableMarkAsDoneButton(enable: Boolean)
+
+    fun getHeaderOfItem(subject: String): GradeDetailsItem
+}

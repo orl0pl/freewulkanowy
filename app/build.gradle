@@ -19,12 +19,12 @@ apply from: 'sonarqube.gradle'
 apply from: 'hooks.gradle'
 
 android {
-    namespace 'io.github.wulkanowy'
+    namespace 'io.github.freewulkanowy'
     compileSdk 34
 
     defaultConfig {
-        applicationId "io.github.wulkanowy"
-        testApplicationId "io.github.tests.wulkanowy"
+        applicationId "io.github.freewulkanowy"
+        testApplicationId "io.github.tests.freewulkanowy"
         minSdkVersion 21
         targetSdkVersion 34
         versionCode 177
@@ -64,7 +64,7 @@ android {
             shrinkResources true
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
             signingConfig signingConfigs.release
-            buildConfigField "String", "MESSAGES_BASE_URL", "\"https://messages.wulkanowy.net.pl\""
+            buildConfigField "String", "MESSAGES_BASE_URL", "\"https://raw.githubusercontent.com\""
             buildConfigField "String", "SCHOOLS_BASE_URL", '"https://schools.wulkanowy.net.pl"'
         }
         debug {
@@ -73,7 +73,7 @@ android {
             resValue "string", "app_name", "Wulkanowy DEV"
             applicationIdSuffix ".dev"
             versionNameSuffix "-dev"
-            buildConfigField "String", "MESSAGES_BASE_URL", "\"https://messages.wulkanowy.net.pl\""
+            buildConfigField "String", "MESSAGES_BASE_URL", "\"https://raw.githubusercontent.com\""
             buildConfigField "String", "SCHOOLS_BASE_URL", '"https://schools.wulkanowy.net.pl"'
         }
     }
@@ -193,6 +193,7 @@ ext {
 dependencies {
 //    implementation 'com.github.wulkanowy:sdk:master-SNAPSHOT'
     implementation 'com.github.Pengwius:wulkanowy-sdk:master-SNAPSHOT'
+//    implementation("io.github.wulkanowy:sdk")
 
     coreLibraryDesugaring 'com.android.tools:desugar_jdk_libs:2.0.4'
 

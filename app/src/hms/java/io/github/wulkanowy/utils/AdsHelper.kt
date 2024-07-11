@@ -1,10 +1,10 @@
-package io.github.wulkanowy.utils
+package io.github.freewulkanowy.utils
 
 import android.content.Context
 import android.view.View
 import dagger.hilt.android.qualifiers.ApplicationContext
-import io.github.wulkanowy.data.repositories.PreferencesRepository
-import io.github.wulkanowy.ui.modules.dashboard.DashboardItem
+import io.github.freewulkanowy.data.repositories.PreferencesRepository
+import io.github.freewulkanowy.ui.modules.dashboard.DashboardItem
 import kotlinx.coroutines.flow.MutableStateFlow
 import javax.inject.Inject
 

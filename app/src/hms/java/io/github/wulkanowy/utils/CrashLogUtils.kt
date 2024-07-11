@@ -1,4 +1,4 @@
-package io.github.wulkanowy.utils
+package io.github.freewulkanowy.utils
 
 import android.util.Log
 import com.huawei.agconnect.crash.AGConnectCrash

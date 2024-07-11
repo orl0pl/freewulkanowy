@@ -1,4 +1,4 @@
-package io.github.wulkanowy.utils
+package io.github.freewulkanowy.utils
 
 import android.app.Activity
 import android.content.Context
@@ -6,7 +6,7 @@ import android.os.Bundle
 import com.huawei.agconnect.crash.AGConnectCrash
 import com.huawei.hms.analytics.HiAnalytics
 import dagger.hilt.android.qualifiers.ApplicationContext
-import io.github.wulkanowy.data.repositories.PreferencesRepository
+import io.github.freewulkanowy.data.repositories.PreferencesRepository
 import javax.inject.Inject
 import javax.inject.Singleton
 

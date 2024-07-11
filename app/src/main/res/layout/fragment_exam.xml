@@ -107,7 +107,7 @@
         </LinearLayout>
     </androidx.coordinatorlayout.widget.CoordinatorLayout>
 
-    <io.github.wulkanowy.ui.widgets.MaterialLinearLayout
+    <io.github.freewulkanowy.ui.widgets.MaterialLinearLayout
         android:id="@+id/examNavContainer"
         android:layout_width="match_parent"
         android:layout_height="48dp"
@@ -154,5 +154,5 @@
             android:scaleType="fitEnd"
             app:srcCompat="@drawable/ic_chevron_right"
             app:tint="?colorPrimary" />
-    </io.github.wulkanowy.ui.widgets.MaterialLinearLayout>
+    </io.github.freewulkanowy.ui.widgets.MaterialLinearLayout>
 </FrameLayout>

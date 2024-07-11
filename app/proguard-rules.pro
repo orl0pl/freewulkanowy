@@ -4,7 +4,7 @@
 
 
 #Config for wulkanowy
--keep class io.github.wulkanowy.** {*;}
+-keep class io.github.freewulkanowy.** {*;}
 
 
 #Config for firebase crashlitycs
